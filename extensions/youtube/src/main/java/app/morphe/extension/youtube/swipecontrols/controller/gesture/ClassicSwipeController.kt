@@ -23,6 +23,11 @@ class ClassicSwipeController(
      */
     private var lastOnDownEvent: MotionEvent? = null
 
+    /**
+     * Indicates whether player controls were visible when the current gesture started.
+     */
+    private var werePlayerControlsVisible = false
+
     override val shouldForceInterceptEvents: Boolean
         get() {
             val swipe = currentSwipe
@@ -43,6 +48,10 @@ class ClassicSwipeController(
     }
 
     override fun shouldDropMotion(motionEvent: MotionEvent): Boolean {
+        if (motionEvent.actionMasked == MotionEvent.ACTION_DOWN) {
+            werePlayerControlsVisible = arePlayerControlsVisible
+        }
+
         // ignore gestures with more than one pointer
         // when such a gesture is detected, dispatch the first event of the gesture to downstream
         if (motionEvent.pointerCount > 1) {
@@ -54,8 +63,8 @@ class ClassicSwipeController(
             return true
         }
 
-        // ignore gestures when player controls are visible
-        return arePlayerControlsVisible
+        // ignore gestures when player controls were visible at gesture start
+        return werePlayerControlsVisible
     }
 
     override fun onDown(motionEvent: MotionEvent): Boolean {

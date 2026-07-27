@@ -69,7 +69,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_floating_microphone_button_title">ซ่อนปุ่มไมโครโฟนแบบลอย</string>
   <string name="morphe_hide_floating_microphone_button_summary">ซ่อนปุ่มไมโครโฟนลอยที่มุมล่างขวาของหน้าจอคำแนะนำการค้นหา</string>
   <string name="morphe_hide_horizontal_shelves_title">ซ่อนชั้นวางแนวนอน</string>
-  <string name="morphe_hide_horizontal_shelves_summary">ซ่อนชั้นวางแนวนอน เช่น ข่าวเด่น, โพสต์จากคอมมูนิตี้ที่คุณอาจชอบ, รับชมต่อ, สำรวจช่องเพิ่มเติม, สำรวจหัวข้อเพิ่มเติม, สำหรับคุณ, วิดีโอล่าสุด, ที่เกี่ยวข้องมากที่สุด, โพสต์จากคอมมูนิตี้ของผู้สร้าง, ช้อปปิ้ง และ ดูอีกครั้ง</string>
+  <string name="morphe_hide_horizontal_shelves_summary">ซ่อนชั้นวางแนวนอน เช่น ข่าวเด่น, โพสต์จากชุมชนที่คุณอาจชอบ, รับชมต่อ, สำรวจช่องเพิ่มเติม, สำรวจหัวข้อเพิ่มเติม, สำหรับคุณ, วิดีโอล่าสุด, ที่เกี่ยวข้องมากที่สุด, โพสต์จากชุมชนของผู้สร้าง, ร้านค้า และ ดูอีกครั้ง</string>
   <string name="morphe_hide_hyped_label_title">ซ่อนป้ายกำกับ \'กำลังเป็นที่นิยม\'</string>
   <string name="morphe_hide_image_shelf_title">ซ่อนชั้นวางรูปภาพ</string>
   <string name="morphe_hide_image_shelf_summary">ซ่อนชั้นวางรูปภาพในผลการค้นหา</string>
@@ -184,7 +184,7 @@ Second \"item\" text"</string>
   <!-- 'Community' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_community_button_title">ซ่อนปุ่มแสดงความคิดเห็น</string>
   <!-- 'Join' should be translated using the same localized wording YouTube displays for the button. -->
-  <string name="morphe_hide_join_button_title">ซ่อนปุ่มเข้าร่วม</string>
+  <string name="morphe_hide_join_button_title">ซ่อนปุ่มสมัคร</string>
   <string name="morphe_hide_links_preview_title">ซ่อนตัวอย่างลิงก์</string>
   <string name="morphe_hide_links_preview_summary">ซ่อนลิงก์เว็บที่คลิกได้ในส่วนหัวของช่อง</string>
   <string name="morphe_hide_members_shelf_title">ซ่อนชั้นวางสมาชิก</string>
@@ -317,7 +317,7 @@ Second \"item\" text"</string>
   <string name="morphe_external_downloader_title">แสดงปุ่มดาวน์โหลดภายนอก</string>
   <string name="morphe_external_downloader_summary">แสดงปุ่มซ้อนทับในเครื่องเล่นวิดีโอที่เปิดแอปดาวน์โหลดภายนอกของคุณ</string>
   <!-- 'Download' should be translated using the same localized wording YouTube displays for the button. -->
-  <string name="morphe_external_downloader_action_button_title">แทนที่ปุ่ม \'ดาวน์โหลด\' และ&amp;เมนู</string>
+  <string name="morphe_external_downloader_action_button_title">แทนที่ปุ่ม \'ดาวน์โหลด\' &amp; เมนู</string>
   <string name="morphe_external_downloader_action_button_summary">ใช้ตัวดาวน์โหลดภายนอกที่คุณเลือกแทนคุณสมบัติการดาวน์โหลดในตัวของ YouTube</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">การแปลเสียงบรรยาย</string>
@@ -794,8 +794,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_end_screen_suggested_video_title">ซ่อนวิดีโอแนะนำในหน้าจอสิ้นสุด</string>
   <string name="morphe_hide_end_screen_suggested_video_summary">"ซ่อนภาพซ้อนทับวิดีโอแนะนำที่ปรากฏขึ้นหลังจากวิดีโอสิ้นสุดลง
 
-การตั้งค่านี้จะใช้งานได้เฉพาะเมื่อปิดautoplay ไว้ คุณสามารถเปลี่ยนได้ใน YouTube:
-การตั้งค่า → การเล่น (หรือ Autoplay) → เล่นวิดีโอถัดไปโดยอัตโนมัติ"</string>
+การตั้งค่านี้จะใช้งานได้เฉพาะเมื่อปิดการเล่นอัตโนมัติไว้ คุณสามารถเปลี่ยนได้ใน YouTube:
+การตั้งค่า → การเล่น (หรือ การเล่นอัตโนมัติ) → เล่นวิดีโอถัดไปโดยอัตโนมัติ"</string>
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">ซ่อนวิดีโอที่เกี่ยวข้อง</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
@@ -1079,7 +1079,7 @@ Second \"item\" text"</string>
 • วิดีโอ HDR จะไม่ใช้ AVC
 • อุปกรณ์บางรุ่นไม่สามารถบังคับใช้ AVC ได้"</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_force_avc_codec_not_available">หากต้องการใช้คุณสมบัตินี้ ให้ตั้งค่า \'Spoof video streams\' เป็น \'Android VR\' หรือ \'Android Studio\'</string>
+  <string name="morphe_force_avc_codec_not_available">To use this feature, set \'Spoof video streams\' to \'Android VR or \'Android Studio\'</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">เปิดเมนูคุณภาพขั้นสูง</string>
   <string name="morphe_advanced_video_quality_menu_summary">ข้ามเมนูการเลือกคุณภาพและเปิดเมนูคุณภาพขั้นสูงโดยตรง</string>

@@ -1079,13 +1079,19 @@ Teorainneacha:
 • Ní úsáidfidh físeáin HDR AVC
 • Ní féidir le roinnt gléasanna AVC a bhrú"</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_force_avc_codec_not_available">Chun an ghné seo a úsáid, socraigh \'Sruthanna físe bréige\' go \'Android VR nó \'Android Studio\'</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Oscail an roghchlár Ardchaighdeáin</string>
   <string name="morphe_advanced_video_quality_menu_summary">Léimeann sé an roghchlár um roghnú cáilíochta agus osclaíonn sé an roghchlár Ardchaighdeán go díreach</string>
   <!-- video.quality.hidePremiumVideoQualityPatch -->
   <string name="morphe_hide_premium_video_quality_title">Folaigh roghanna cáilíochta Préimhe</string>
   <!-- video.quality.prioritizeVideoQualityPatch -->
+  <string name="morphe_video_quality_prioritize_title">Tabhair tús áite do cháilíocht físe</string>
+  <string name="morphe_video_quality_prioritize_summary">Tugann sé tús áite don cháilíocht físe is airde atá ar fáil thar éifeachtúlacht an chóidéic</string>
+  <string name="morphe_video_quality_prioritize_dialog">Mura bhfuil an socrú seo ar siúl, ní féidir le físeáin níos sine aon roghanna cáilíochta físe a thaispeáint.</string>
   <!-- misc.spoof.spoofVideoStreamsPatch -->
+  <string name="morphe_spoof_video_streams_av1_title">Ceadaigh Android VR / visionOS AV1</string>
+  <string name="morphe_spoof_video_streams_av1_summary">Ceadaíonn sé díchódú bogearraí AV1 agus cliant Android VR / visionOS in úsáid</string>
   <string name="morphe_spoof_video_streams_av1_user_dialog_message">"D’fhéadfadh sé go n-úsáidfí díchódú bogearraí AV1 agus an socrú seo á chumasú.
 
 D’fhéadfadh sé go mbeadh stad nó go gcaillfí frámaí ag athsheinm físe le AV1."</string>

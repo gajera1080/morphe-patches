@@ -76,7 +76,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Desvanecimiento cruzado reanudado</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">El modo de vídeo no está disponible mientras el desvanecimiento cruzado está activado</string>
   <string name="morphe_music_crossfade_cast_unstable_toast">La transición cruzada se pausa al reproducir o duplicar audio. La transición cruzada al reproducir/duplicar es inestable y es posible que nunca se pueda solucionar.</string>
-  <string name="morphe_music_crossfade_about_title">Información</string>
+  <string name="morphe_music_crossfade_about_title">Acerca de</string>
   <string name="morphe_music_crossfade_about_summary">Cómo funciona la transición cruzada, y cuándo no.</string>
   <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
   <string name="morphe_music_crossfade_about_how_title">Cómo funciona</string>
@@ -157,7 +157,7 @@ YouTube Music 8.x: el fundido cruzado solo funciona en la versión 9.x o posteri
   <string name="morphe_music_hide_flyout_menu_help_title">Ocultar menú \"Ayuda\"</string>
   <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Ocultar el menú \'Marcar episodio como reproducido\'</string>
   <string name="morphe_music_hide_flyout_menu_not_interested_title">Ocultar el menú \'No me interesa\'</string>
-  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Ocultar el menú \'Fijar en la esfera rápida\'</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Ocultar el menú \'Fijar al acceso rápido\'</string>
   <string name="morphe_music_hide_flyout_menu_play_next_title">Ocultar el menú \'Reproducir siguiente\'</string>
   <string name="morphe_music_hide_flyout_menu_quality_title">Ocultar menú \"Calidad\"</string>
   <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Ocultar el menú \'Eliminar de la biblioteca\'</string>
@@ -226,7 +226,7 @@ YouTube Music 8.x: el fundido cruzado solo funciona en la versión 9.x o posteri
   <string name="morphe_music_scrobbling_now_playing_title">Enviar estado \"Reproduciendo ahora\"</string>
   <string name="morphe_music_scrobbling_min_song_duration_title">Duración mínima de la canción</string>
   <!-- 'scrobbled' must be kept untranslated -->
-  <string name="morphe_music_scrobbling_min_song_duration_summary">Las canciones más cortas que esta no serán scrobbleadas</string>
+  <string name="morphe_music_scrobbling_min_song_duration_summary">No se hará scrobble para canciones con duración menor que este valor</string>
   <!-- 'scrobble' must be kept untranslated -->
   <string name="morphe_music_scrobbling_delay_percent_title">Retraso de scrobble en porcentaje</string>
   <!-- 'scrobble' must be kept untranslated -->

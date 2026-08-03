@@ -67,6 +67,12 @@ class ClassicSwipeController(
         return werePlayerControlsVisible
     }
 
+    override fun onUp(motionEvent: MotionEvent) {
+        super.onUp(motionEvent)
+        lastOnDownEvent?.recycle()
+        lastOnDownEvent = null
+    }
+
     override fun onDown(motionEvent: MotionEvent): Boolean {
         // save the event for later
         lastOnDownEvent?.recycle()
